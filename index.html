@@ -1,40 +1,41 @@
 <html>
 	<head>
-<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-<title>Meet Saurabh</title>
-
-
-		<style type="text/css">
-			body{font-family: 'libre serif'; }
-			p{display: inline-block;}
-			img{display: block;}
-			.container{width: 90%;position: relative;margin: auto;}
-			.title{position: relative;width: 90%;margin: auto;text-align: center;font-weight: bold;font-size: 54px;padding: 1%;}
-			.section{position: relative;width:100%;margin: auto;padding: 2%;}
-			.subsection{position: relative; width: 95%;text-align: justify;padding: 10px;}
-			.heading{position: relative; width: 95%;text-align: left;font-size: 25px;font-weight: bold;}
-			.text{width: 95%;font-size: 20px;text-align: justify;padding: 10px 0px 10px 0px;}
-			.authors{position: relative;width: 80%;margin: auto;padding: 2%;font-style: italic;text-align: center;font-size: 20px;}
-			.image{width: 95%;font-size: 20px;text-align: left;}
-		</style>
-	
-
+		<link rel="stylesheet" href="mystyle.css" type="text/css">
+		<title>Scripty_V2.0</title>
+		<script src="script.js"></script>
 	</head>
+
 	<body>
-		<div class="container">
-			<div class="title">Saurabh's currently working on this. ETA 30th September, 2022</div>
-			<!-- <div class="container">
+		<div id="ticket_form">
+			<div class="container">
+				<div class="title">Saurabh's Scripty PRO &#x1F60E;</div>
+				<form>
+					<ul>
+						<li><label for="Environment">Choose an Environment:</label></li>
+						<li>
+						<select id="envir" name="envir">
+							<option value="prod3">Prod3</option>
+							<option value="prod12">Prod12</option>
+							<option value="qa4">QA4</option>
+							<option value="qa5">QA5</option>
+						</select>
+						</li>
+						<li><textarea placeholder="Enter Script" name="script" rows="15" class="field" required></textarea></li>
+						<li><input type="submit" value="Open LC" onclick="processScript(this.form)"></li>
+						<li><a href="https://www.linkedin.com/in/saurabhraj-ac/" target="_blank" rel="noopener noreferrer">Let's connect on LinkedIn </a></li>
+					</ul>
+					
+				</form>
 				
-				<a href="https://wa.link/mjudgh">Receive updates on Whatsapp</a>
-			</div> -->
-			<script>
-				window.sprChatSettings = window.sprChatSettings || {};
-				window.sprChatSettings = {"appId":"6364e7437414d565b4444e35_app_300104903","skin":"MODERN"};
-			</script>
-			
-			<script>
-			(function(){var t=window,e=t.sprChat,a=e&&!!e.loaded,n=document,r=function(){r.m(arguments)};r.q=[],r.m=function(t){r.q.push(t)},t.sprChat=a?e:r;var o=function(){var e=n.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://prod3-live-chat.sprinklr.com/api/livechat/handshake/widget/"+t.sprChatSettings.appId,e.onerror=function(){t.sprChat.loaded=!1},e.onload=function(){t.sprChat.loaded=!0};var a=n.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)};"function"==typeof e?a?e("update",t.sprChatSettings):o():"loading"!==n.readyState?o():n.addEventListener("DOMContentLoaded",o)})()
-			</script>
-	
+			</div>
+		</div>
+		<script>
+			window.sprChatSettings = window.sprChatSettings || {};
+			window.sprChatSettings = {"appId":"6360d1b2f0e80a1d152da693_app_40478","skin":"MODERN"};
+		</script>
+		
+		<script>
+		(function(){var t=window,e=t.sprChat,a=e&&!!e.loaded,n=document,r=function(){r.m(arguments)};r.q=[],r.m=function(t){r.q.push(t)},t.sprChat=a?e:r;var o=function(){var e=n.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://prod12-live-chat.sprinklr.com/api/livechat/handshake/widget/"+t.sprChatSettings.appId,e.onerror=function(){t.sprChat.loaded=!1},e.onload=function(){t.sprChat.loaded=!0};var a=n.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)};"function"==typeof e?a?e("update",t.sprChatSettings):o():"loading"!==n.readyState?o():n.addEventListener("DOMContentLoaded",o)})()
+		</script>
 	</body>
 </html>
