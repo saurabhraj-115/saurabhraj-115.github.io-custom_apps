@@ -1,28 +1,31 @@
 <html>
 	<head>
-<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-<title>Meet Fivingo</title>
+        <link rel="stylesheet" href="mystyle.css" type="text/css">
+		<title>Meet_Fivingo</title>
+		<script src="script.js"></script>
 
 	</head>
 	<body>
 		<div class="container">
-			<div class="title">Saurabh's currently working on this. ETA 31st December, 2022</div>
-	
-            
+			<div class="title">Screen after login.</div>
+
             <script>
                 window.sprChatSettings = window.sprChatSettings || {};
                 window.sprChatSettings = {
                     "appId":"639897e3c8470463f41687e1_app_44316",
-                    "skin":"MODERN"
-                    // ,"user": {
-                    //             "email": email,
-                    //             "hash": "d69f3b95c9456dab9ec5a3530a9072712582198de40d32019073b758825fd0da"
-                    //         }
+                    "skin":"MODERN",
+                    "user": {
+                        id: "12345",
+                        firstName: "Nathan",
+                        lastName: "Smith",
+                        email: "Nathan.Smith@gmail.com",
+                        hash:
+                            "8a9b5cec40a89c6928c6b863d32936bb4f37de7c35569296170dfbc4c0aa3506"
+                            }
                 };
-            </script>
-            
-            <script>
-            (function(){var t=window,e=t.sprChat,a=e&&!!e.loaded,n=document,r=function(){r.m(arguments)};r.q=[],r.m=function(t){r.q.push(t)},t.sprChat=a?e:r;var o=function(){var e=n.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://prod12-live-chat.sprinklr.com/api/livechat/handshake/widget/"+t.sprChatSettings.appId,e.onerror=function(){t.sprChat.loaded=!1},e.onload=function(){t.sprChat.loaded=!0};var a=n.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)};"function"==typeof e?a?e("update",t.sprChatSettings):o():"loading"!==n.readyState?o():n.addEventListener("DOMContentLoaded",o)})()
-            </script>
+                </script>
+                <script>
+                    (function(){var t=window,e=t.sprChat,a=e&&!!e.loaded,n=document,r=function(){r.m(arguments)};r.q=[],r.m=function(t){r.q.push(t)},t.sprChat=a?e:r;var o=function(){var e=n.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://prod12-live-chat.sprinklr.com/api/livechat/handshake/widget/"+t.sprChatSettings.appId,e.onerror=function(){t.sprChat.loaded=!1},e.onload=function(){t.sprChat.loaded=!0};var a=n.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)};"function"==typeof e?a?e("update",t.sprChatSettings):o():"loading"!==n.readyState?o():n.addEventListener("DOMContentLoaded",o)})()
+                </script>
 	</body>
 </html>
